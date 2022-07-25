@@ -23,6 +23,7 @@ class LinkedList {
         bool search(int value);
         
         friend std::ostream& operator <<(std::ostream &salida1,const LinkedList& C);
+        //friend std::istream &operator>>(std::istream&, const LinkedList);
 };
 
 #endif
